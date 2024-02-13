@@ -20,3 +20,9 @@
     padding: 0.5rem;
     fill: var(--dark);
 }
+
+@media print {
+    .sectionWrapper {
+        break-inside: avoid;
+    }
+}

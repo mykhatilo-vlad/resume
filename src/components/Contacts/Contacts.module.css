@@ -17,3 +17,13 @@
     width: 1rem;
     fill: #fff;
 }
+
+@media print {
+    .contactsList li svg {
+        fill: #000;
+    }
+
+    .contactsList li a {
+        color: #000;
+    }
+}
