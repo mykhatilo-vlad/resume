@@ -1,0 +1,9 @@
+.projectsWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.projectItem strong {
+    color: var(--light);
+}

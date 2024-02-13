@@ -1,0 +1,23 @@
+.App {
+  display: grid;
+  min-height: 100%;
+
+  @media (min-width: 768px) {
+    grid-template-columns: 350px 1fr;
+  }
+}
+
+.left-column {
+  background: var(--light);
+}
+
+.left-column-inner {
+  padding: 2rem;
+}
+
+.right-column {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
