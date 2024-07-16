@@ -22,7 +22,5 @@
 }
 
 @media print {
-    .sectionWrapper {
-        break-inside: avoid;
-    }
+    
 }

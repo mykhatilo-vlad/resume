@@ -4,6 +4,16 @@
     gap: 0.5rem;
 }
 
-.projectItem strong {
+.projectItem ul {
+    list-style: none;
+}
+
+.projectItem ul strong {
     color: var(--light);
+}
+
+@media print {
+    .projectItem {
+        break-inside: avoid;
+    }
 }

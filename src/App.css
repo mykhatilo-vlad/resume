@@ -19,5 +19,15 @@
   padding: 2rem;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1.6rem;
+}
+
+@media print {
+  .App {
+    display: block;
+  }
+
+  .right-column {
+    gap: 5rem;
+  }
 }

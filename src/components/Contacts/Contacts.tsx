@@ -11,8 +11,8 @@ const Contacts = () => {
     const list = [
         {
             icon: <EmailIcon />,
-            label: 'mykhatilo.vladyslav@gmail.com',
-            href: 'mailto:mykhatilo.vladyslav@gmail.com'
+            label: 'mykhatilo.vlad@gmail.com',
+            href: 'mailto:mykhatilo.vlad@gmail.com',
         },
         {
             icon: <WebsiteIcon />,

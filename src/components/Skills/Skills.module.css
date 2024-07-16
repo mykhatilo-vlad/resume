@@ -1,8 +1,8 @@
 .skillsWrapper {
-    display: grid;
+    /* display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
-    gap: 0.5rem 1rem;
+    gap: 0.5rem 1rem; */
 }
 
 .skillsWrapper progress[value] {

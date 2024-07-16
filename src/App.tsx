@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import AvatarBox from './components/AvatarBox/AvatarBox';
 import Contacts from './components/Contacts/Contacts';

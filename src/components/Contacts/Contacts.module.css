@@ -10,7 +10,6 @@
 .contactsList li a {
     display: inline-flex;
     gap: 0.5rem;
-
 }
 
 .contactsList li svg {
