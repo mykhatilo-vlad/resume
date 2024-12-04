@@ -14,11 +14,11 @@ const Contacts = () => {
             label: 'mykhatilo.vlad@gmail.com',
             href: 'mailto:mykhatilo.vlad@gmail.com',
         },
-        {
-            icon: <WebsiteIcon />,
-            label: 'mykhatilo-vlad.com/',
-            href: 'https://mykhatilo-vlad.com/en/'
-        },
+        // {
+        //     icon: <WebsiteIcon />,
+        //     label: 'mykhatilo-vlad.com/',
+        //     href: 'https://mykhatilo-vlad.com/en/'
+        // },
         {
             icon: <LinkedinIcon />,
             label: 'linkedin.com/in/vlad-mykhatilo',
