@@ -41,7 +41,7 @@ const Contacts = () => {
         <ul className={styles.contactsList}>
             {list.map((item: { href: string, label: string, icon: JSX.Element }) => {
               return (
-                <li>
+                <li key={item.label}>
                     <a href={item.href} target='_blank'>
                         {item.icon}
                         {item.label}

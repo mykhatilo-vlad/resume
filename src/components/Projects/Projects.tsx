@@ -13,6 +13,35 @@ type ListItem = {
 const Projects = () => {
     const list: ListItem[] = [
         {
+            title: 'Freelance platform',
+            info: [
+                {
+                    title: 'Project Overview',
+                    desc: 'Developed a freelance platform that facilitates connections between freelancers and employers',
+                },
+                {
+                    title: 'Custom dashboards',
+                    desc: 'The project included creating dashboards for both freelancers and employers, providing unique functionality and tailored experiences for each user type.',
+                },
+                {
+                    title: 'Wordpress as Core and custom DB tables',
+                    desc: 'Utilized WordPress as the core framework, with custom database tables to manage complex data relationships and optimize performance.',
+                },
+                {
+                    title: 'Tailwind',
+                    desc: 'Integrated Tailwind CSS for responsive and modern UI design, ensuring a seamless user experience.',
+                },
+                {
+                    title: 'ACF PRO',
+                    desc: 'Leveraged ACF Pro to manage dynamic content across general pages, enhancing flexibility and ease of content updates.',
+                },
+                {
+                    title: 'Technologies Used',
+                    desc: 'WooCommerce, PHP, React, JavaScript, HTML, CSS'
+                }
+            ]
+        },
+        {
             title: 'E-commerce Platform Development using WooCommerce',
             info: [
                 {
@@ -21,7 +50,7 @@ const Projects = () => {
                 },
                 {
                     title: 'Custom Cart and Checkout Flow',
-                    desc: 'Implemented a unique cart and checkout process to enhance user experience and streamline transactions.',
+                    desc: 'Implemented a unique cart, order and checkout process to enhance user experience and streamline transactions.',
                 },
                 {
                     title: 'Custom Dashboards',
@@ -32,7 +61,7 @@ const Projects = () => {
                     desc: 'Enabled the creation of sub-accounts for both sellers and buyers, with configurable permissions and capabilities to manage different user roles efficiently.',
                 },
                 {
-                    title: 'Technologies Used:',
+                    title: 'Technologies Used',
                     desc: 'WooCommerce, PHP, React, JavaScript, HTML, CSS'
                 }
             ]
@@ -59,6 +88,81 @@ const Projects = () => {
                 {
                     title: 'Technologies Used',
                     desc: 'WordPress Multisite, Elementor, WordPress REST API, PHP, JavaScript, HTML, CSS',
+                },
+            ],
+        },
+        {
+            title: 'Sports School for Children with Autism',
+            info: [
+                {
+                    title: 'Project Overview',
+                    desc: 'Built a website for a sports school dedicated to children with autism, providing a user-friendly interface for parents to explore and enroll in available programs.',
+                },
+                {
+                    title: 'Elementor',
+                    desc: 'Utilized Elementor for custom page building, ensuring an engaging and visually accessible design. Created custom widgets.',
+                },
+                {
+                    title: 'Woocommerce and Subscription',
+                    desc: 'Integrated WooCommerce for managing program registrations and payments, with a subscription feature for recurring classes.',
+                },
+                {
+                    title: 'Gravity forms and Popup',
+                    desc: 'Customized Gravity Forms to enhance the user experience by displaying confirmations as popups, improving form interaction and clarity',
+                },
+                {
+                    title: 'Technologies Used',
+                    desc: 'Wordpress, Elementor, Woocommerce, Gravity forms, Subscription Plugin.',
+                },
+            ],
+        },
+        {
+            title: 'Tailor service',
+            info: [
+                {
+                    title: 'Project Overview',
+                    desc: 'Developed a tailor service website with a custom appointment scheduling flow to enhance customer convenience.',
+                },
+                {
+                    title: 'ACF PRO',
+                    desc: 'Utilized ACF Pro for dynamic content management, including the use of ACF Flexible Content to provide modular and easily customizable page layouts.',
+                },
+                {
+                    title: 'Acuity Scheduling API',
+                    desc: 'Integrated the Acuity Scheduling API to build a seamless, custom appointment booking process directly within the site.',
+                },
+                {
+                    title: 'Good Maps API',
+                    desc: 'Leveraged the Google Maps API to build a map with multiple markers for locations.',
+                },
+                {
+                    title: 'ACF Flexible Content and grouping sections',
+                    desc: 'Implemented a feature allowing several flexible content sections to be grouped under a shared gradient background, adding visual cohesion to the design.',
+                },
+                {
+                    title: 'Technologies Used',
+                    desc: 'Wordpress, ACF PRO, Acuity Scheduling API, Google Maps API, ACF Flexible Content.',
+                },
+            ],
+        },
+        {
+            title: 'Interior Design Studio Website',
+            info: [
+                {
+                    title: 'Project Overview',
+                    desc: 'Created a website for an interior design studio, focusing on a visually appealing presentation and user-friendly experience.',
+                },
+                {
+                    title: 'Blog AJAX',
+                    desc: 'Developed an AJAX-based blog filter to allow visitors to easily sort and find content of interest without page reloads, enhancing usability',
+                },
+                {
+                    title: 'Extend Instagram Plugin',
+                    desc: 'Extended an existing Instagram plugin to provide the admin with control over which posts are displayed on the site, allowing for a curated showcase of social media content that aligns with the brand\'s vision and aesthetic.',
+                },
+                {
+                    title: 'Technologies Used',
+                    desc: 'Wordpress, ACF PRO, AJAX, Instagram',
                 },
             ],
         },
@@ -121,7 +225,7 @@ const Projects = () => {
     return (
         <Section
             icon={<BoxarchiveIcon />}
-            title="Projects"
+            title="Recent Projects"
         >
             <div className={styles.projectsWrapper}>
                 {

@@ -28,6 +28,11 @@
   }
 
   .right-column {
-    gap: 5rem;
+    gap: 2.5rem;
+  }
+
+  .left-column {
+    display: flex;
+    gap: 1rem;
   }
 }
