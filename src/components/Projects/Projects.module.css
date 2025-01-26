@@ -1,0 +1,19 @@
+.projectsWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.projectItem ul {
+    list-style: none;
+}
+
+.projectItem ul strong {
+    color: var(--light);
+}
+
+@media print {
+    .projectItem {
+        break-inside: avoid;
+    }
+}

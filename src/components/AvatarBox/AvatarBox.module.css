@@ -1,0 +1,10 @@
+.avatarBox {
+    text-align: center;
+    background-color: var(--blue);
+    padding: 2rem;
+}
+
+.avatar {
+    border-radius: 50%;
+    background-color: var(--light);
+}
